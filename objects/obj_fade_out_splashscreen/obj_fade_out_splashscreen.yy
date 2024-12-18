@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"fade_in",
+  "%Name":"obj_fade_out_splashscreen",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":75,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"fade_in",
+  "name":"obj_fade_out_splashscreen",
   "overriddenProperties":[],
   "parent":{
     "name":"Splash_screen",
     "path":"folders/Objects/Splash_screen.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"fade_out_baseclass",
+    "path":"objects/fade_out_baseclass/fade_out_baseclass.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
