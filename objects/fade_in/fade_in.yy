@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gamemaker",
-  "eventList":[],
+  "%Name":"fade_in",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":75,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_gamemaker",
+  "name":"fade_in",
   "overriddenProperties":[],
   "parent":{
     "name":"Splash_screen",
@@ -27,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_gamemaker",
-    "path":"sprites/spr_gamemaker/spr_gamemaker.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
