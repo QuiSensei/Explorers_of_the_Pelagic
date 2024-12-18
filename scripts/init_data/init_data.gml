@@ -5,18 +5,18 @@ function init_data() {
 		{
 			"fish":[
 				{
-					"name":"Fish",
-					"sprite":"spr_fish",
+					"name":"Angler",
+					"sprite":"spr_angler",
 					"description":"A generic fish that sums things up as much as you`d expect.\nFish come in all shapes and sizes, and while we`d love to classify them all, sometimes they`re just too similar for classification. We`re not experts, sorry."
 				},
 				{
-					"name":"Dolphin",
-					"sprite":"spr_dolphin",
+					"name":"Saw Shark",
+					"sprite":"spr_sawshark",
 					"description":"They playful creatures are actually mammals, and have complex speech patterns."
 				},
 				{
-					"name":"Whale",
-					"sprite":"spr_whale",
+					"name":"Shark",
+					"sprite":"spr_shark",
 					"description":"One big boy. Whales can emit far reaching sounds that can be heard by other whales thousands of miles away."
 				},
 				{
