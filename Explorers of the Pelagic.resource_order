@@ -62,6 +62,7 @@
     {"name":"cont_settings","order":2,"path":"objects/cont_settings/cont_settings.yy",},
     {"name":"cont_shapes","order":2,"path":"objects/cont_shapes/cont_shapes.yy",},
     {"name":"fade_in","order":3,"path":"objects/fade_in/fade_in.yy",},
+    {"name":"fade_out","order":4,"path":"objects/fade_out/fade_out.yy",},
     {"name":"obj_achievements_list","order":4,"path":"objects/obj_achievements_list/obj_achievements_list.yy",},
     {"name":"obj_angler","order":2,"path":"objects/obj_angler/obj_angler.yy",},
     {"name":"obj_beast_button","order":1,"path":"objects/obj_beast_button/obj_beast_button.yy",},

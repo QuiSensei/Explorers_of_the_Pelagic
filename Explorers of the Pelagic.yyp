@@ -90,6 +90,7 @@
     {"id":{"name":"cont_settings","path":"objects/cont_settings/cont_settings.yy",},},
     {"id":{"name":"cont_shapes","path":"objects/cont_shapes/cont_shapes.yy",},},
     {"id":{"name":"fade_in","path":"objects/fade_in/fade_in.yy",},},
+    {"id":{"name":"fade_out","path":"objects/fade_out/fade_out.yy",},},
     {"id":{"name":"obj_achievements_list","path":"objects/obj_achievements_list/obj_achievements_list.yy",},},
     {"id":{"name":"obj_angler","path":"objects/obj_angler/obj_angler.yy",},},
     {"id":{"name":"obj_beast_button","path":"objects/obj_beast_button/obj_beast_button.yy",},},
