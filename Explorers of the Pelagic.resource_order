@@ -69,6 +69,7 @@
     {"name":"obj_beast_button","order":1,"path":"objects/obj_beast_button/obj_beast_button.yy",},
     {"name":"obj_bgm","order":4,"path":"objects/obj_bgm/obj_bgm.yy",},
     {"name":"obj_bluejellyfish","order":3,"path":"objects/obj_bluejellyfish/obj_bluejellyfish.yy",},
+    {"name":"obj_button_1","order":2,"path":"objects/obj_button_1/obj_button_1.yy",},
     {"name":"obj_cridet2","order":1,"path":"objects/obj_cridet2/obj_cridet2.yy",},
     {"name":"obj_dagon","order":1,"path":"objects/obj_dagon/obj_dagon.yy",},
     {"name":"obj_duck","order":4,"path":"objects/obj_duck/obj_duck.yy",},
