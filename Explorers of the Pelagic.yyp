@@ -78,7 +78,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -111,6 +111,7 @@
     {"id":{"name":"obj_notification","path":"objects/obj_notification/obj_notification.yy",},},
     {"id":{"name":"obj_penguin","path":"objects/obj_penguin/obj_penguin.yy",},},
     {"id":{"name":"obj_pinkfish","path":"objects/obj_pinkfish/obj_pinkfish.yy",},},
+    {"id":{"name":"obj_pinkjellyfish","path":"objects/obj_pinkjellyfish/obj_pinkjellyfish.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_puffin","path":"objects/obj_puffin/obj_puffin.yy",},},
     {"id":{"name":"obj_purplefish","path":"objects/obj_purplefish/obj_purplefish.yy",},},
@@ -119,6 +120,7 @@
     {"id":{"name":"obj_shark","path":"objects/obj_shark/obj_shark.yy",},},
     {"id":{"name":"obj_story","path":"objects/obj_story/obj_story.yy",},},
     {"id":{"name":"obj_sun","path":"objects/obj_sun/obj_sun.yy",},},
+    {"id":{"name":"obj_swordfish","path":"objects/obj_swordfish/obj_swordfish.yy",},},
     {"id":{"name":"obj_title_screen","path":"objects/obj_title_screen/obj_title_screen.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},},
@@ -254,6 +256,7 @@
     {"id":{"name":"spr_tool","path":"sprites/spr_tool/spr_tool.yy",},},
     {"id":{"name":"spr_volume","path":"sprites/spr_volume/spr_volume.yy",},},
     {"id":{"name":"sprite11","path":"sprites/sprite11/sprite11.yy",},},
+    {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
