@@ -1,102 +1,140 @@
 function init_data() {
-	gml_pragma("global", "init_data();");
+    gml_pragma("global", "init_data();");
 
-	global.bestiary = json_decode(@'
-		{
-			"fish":[
-				{
-					"name":"Angler",
-					"sprite":"spr_angler",
-					"description":"A generic fish that sums things up as much as you`d expect.\nFish come in all shapes and sizes, and while we`d love to classify them all, sometimes they`re just too similar for classification. We`re not experts, sorry."
-				},
-				{
-					"name":"Saw Shark",
-					"sprite":"spr_sawshark",
-					"description":"They playful creatures are actually mammals, and have complex speech patterns."
-				},
-				{
-					"name":"Shark",
-					"sprite":"spr_shark",
-					"description":"One big boy. Whales can emit far reaching sounds that can be heard by other whales thousands of miles away."
-				},
-				{
-					"name":"Jellyfish",
-					"sprite":"spr_jellyfish",
-					"description":"Spineless and brainless, these critters don`t do much besides drift around and digest whatever gets caught in their tentacles"
-				},
-				{
-					"name":"Eel",
-					"sprite":"spr_eel",
-					"description":"Eels move by undulating their entire body, much like a snake. Some eels have a second set of jaws within their first set!"
-				},
-				{
-					"name":"Octopus",
-					"sprite":"spr_octopus",
-					"description":"Highly intelligent and regenerative, octopi are also masters of camoflage, able to change their skin tone to match their environment. They can even make patterns on their skin!"
-				},
-				{
-					"name":"Dagon",
-					"sprite":"spr_dagon_icon",
-					"description":"Some things are best left unexamined."
-				}
-			],
-		
-			"birds":[
-				{
-					"name":"Seagull",
-					"sprite":"spr_seagull",
-					"description":"Essentially a rat with wings. This bird`s primary food source is human garbage."
-				},
-				{
-					"name":"Puffin",
-					"sprite":"spr_puffin",
-					"description":"Squat of stature and short of beak, but don`t let looks deceive you. Puffins are known to be highly successful publishers of childrens books."
-				},
-				{
-					"name":"Penguin",
-					"sprite":"spr_penguin",
-					"description":"While flightless, penguins can achieve extraordinary speeds in the ocean. It`s a bit reckless to swim with your eyes closed, though."
-				},
-				{
-					"name":"Duck",
-					"sprite":"spr_duck",
-					"description":"If it`s not made of rubber, it probably won`t be much help with coding."
-				},
-				{
-					"name":"Sun",
-					"sprite":"spr_sun",
-					"description":"Umm... Well, it`s in the sky, so I guess you could count this as a bird. If you were nuts."
-				},
-			],
-			"achievements":[
-				{
-					"name":"Sky High",
-					"description":"Help a penguin fulfill its dreams."
-				},
-				{
-					"name":"Hot, Hot, Hot",
-					"description":"Grab ahold of the sun."
-				},
-				{
-					"name":"Gotta Scan Them All",
-					"description":"Examine every species."
-				},
-				{
-					"name":"Dream No More",
-					"description":"Disturb a sleeping beast."
-				},
-				{
-					"name":"Fly Fishing",
-					"description":"Spook a fish out of the water."
-				}
-			]
-		}
-	');
+    global.bestiary = json_decode(@'
+        {
+            "fish": [
+                {
+                    "name": "Anglerfish",
+                    "sprite": "spr_angler",
+                    "scientific_name": "Lophiiformes",
+                    "description": "A living flashlight that thrives in the darkness. Its glowing lure is both its charm and its curse."
+                },
+                {
+                    "name": "Saw Shark",
+                    "sprite": "spr_sawshark",
+                    "scientific_name": "Pristiophoridae",
+                    "description": "A carpenter of the ocean with a saw-like snout that really cuts through the competition."
+                },
+                {
+                    "name": "Shark",
+                    "sprite": "spr_shark",
+                    "scientific_name": "Selachimorpha",
+                    "description": "The CEO of the ocean. Silent, efficient, and always circling the next big opportunity."
+                },
+                {
+                    "name": "Bluefire Jellyfish",
+                    "sprite": "spr_bluejellyfish",
+                    "scientific_name": "Cyanea lamarckii",
+                    "description": "The oceans neon sign, drifting lazily but electrifying to behold. Handle with care!"
+                },
+                {
+                    "name": "Pink Jellyfish",
+                    "sprite": "spr_pinkjellyfish",
+                    "scientific_name": "Pelagia noctiluca",
+                    "description": "A bubblegum-colored specter of the sea that dances gracefully but stings fiercely."
+                },
+                {
+                    "name": "Goldfish",
+                    "sprite": "spr_nemo",
+                    "scientific_name": "Carassius auratus",
+                    "description": "A tiny genius with a short attention span. It remembers more than you think, just not for long."
+                },
+                {
+                    "name": "Emperor Tetra",
+                    "sprite": "spr_purplefish",
+                    "scientific_name": "Nematobrycon palmeri",
+                    "description": "A royal presence in freshwater, with a crown of shimmering scales and an air of dignity."
+                },
+                {
+                    "name": "Rosy Tetra",
+                    "sprite": "spr_fishpink",
+                    "scientific_name": "Hyphessobrycon rosaceus",
+                    "description": "A blushing beauty of the river, always dressed to impress in subtle shades of pink."
+                },
+                {
+                    "name": "Dagon",
+                    "sprite": "spr_dagon_icon",
+                    "scientific_name": "Mythicus abyssalus",
+                    "description": "A deep-sea enigma shrouded in mystery. Legends say it is better admired from a distance."
+                }
+            ],
+            
+            "birds": [
+                {
+                    "name": "Seagull",
+                    "sprite": "spr_seagull",
+                    "scientific_name": "Larus",
+                    "description": "Essentially a rat with wings. This bird`s primary food source is human garbage."
+                },
+                {
+                    "name": "Puffin",
+                    "sprite": "spr_puffin",
+                    "scientific_name": "Fratercula arctica",
+                    "description": "Squat of stature and short of beak, but don`t let looks deceive you. Puffins are known to be highly successful publishers of childrens books."
+                },
+                {
+                    "name": "Penguin",
+                    "sprite": "spr_penguin",
+                    "scientific_name": "Spheniscidae",
+                    "description": "While flightless, penguins can achieve extraordinary speeds in the ocean. It`s a bit reckless to swim with your eyes closed, though."
+                },
+                {
+                    "name": "Duck",
+                    "sprite": "spr_duck",
+                    "scientific_name": "Anatidae",
+                    "description": "If it`s not made of rubber, it probably won`t be much help with coding."
+                },
+                {
+                    "name": "Sun",
+                    "sprite": "spr_sun",
+                    "scientific_name": "Not a bird",
+                    "description": "Umm... Well, it`s in the sky, so I guess you could count this as a bird. If you were nuts."
+                }
+            ],
+            "achievements": [
+                {
+                    "name": "Sky High",
+                    "description": "Help a penguin fulfill its dreams."
+                },
+                {
+                    "name": "Hot, Hot, Hot",
+                    "description": "Grab ahold of the sun."
+                },
+                {
+                    "name": "Gotta Scan Them All",
+                    "description": "Examine every species."
+                },
+                {
+                    "name": "Dream No More",
+                    "description": "Disturb a sleeping beast."
+                },
+                {
+                    "name": "Fly Fishing",
+                    "description": "Spook a fish out of the water."
+                },
+                {
+                    "name": "Jelly Juggler",
+                    "description": "Encounter both the Pink and Bluefire Jellyfish without getting stung."
+                },
+                {
+                    "name": "Shark Whisperer",
+                    "description": "Swim alongside a Saw Shark and a regular Shark without incident."
+                },
+                {
+                    "name": "Royal Encounter",
+                    "description": "Spot both the Emperor Tetra and Rosy Tetra in a single dive."
+                },
+                {
+                    "name": "Legend Hunter",
+                    "description": "Discover Dagon and live to tell the tale."
+                }
+            ]
+        }
+    ');
 
-	global.save_filename = "save.sav";
-	global.save = load_data();
+    global.save_filename = "save.sav";
+    global.save = load_data();
 
-	global.waterline = 0;
-
-
+    global.waterline = 0;
 }

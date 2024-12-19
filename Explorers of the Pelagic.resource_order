@@ -80,6 +80,7 @@
     {"name":"obj_notification","order":3,"path":"objects/obj_notification/obj_notification.yy",},
     {"name":"obj_penguin","order":3,"path":"objects/obj_penguin/obj_penguin.yy",},
     {"name":"obj_pinkfish","order":8,"path":"objects/obj_pinkfish/obj_pinkfish.yy",},
+    {"name":"obj_pinkjellyfish","order":9,"path":"objects/obj_pinkjellyfish/obj_pinkjellyfish.yy",},
     {"name":"obj_puffin","order":2,"path":"objects/obj_puffin/obj_puffin.yy",},
     {"name":"obj_purplefish","order":7,"path":"objects/obj_purplefish/obj_purplefish.yy",},
     {"name":"obj_sawshark","order":4,"path":"objects/obj_sawshark/obj_sawshark.yy",},
@@ -87,6 +88,7 @@
     {"name":"obj_shark","order":5,"path":"objects/obj_shark/obj_shark.yy",},
     {"name":"obj_story","order":8,"path":"objects/obj_story/obj_story.yy",},
     {"name":"obj_sun","order":5,"path":"objects/obj_sun/obj_sun.yy",},
+    {"name":"obj_swordfish","order":10,"path":"objects/obj_swordfish/obj_swordfish.yy",},
     {"name":"obj_title_screen","order":1,"path":"objects/obj_title_screen/obj_title_screen.yy",},
     {"name":"obj_title","order":6,"path":"objects/obj_title/obj_title.yy",},
     {"name":"obj_volume","order":5,"path":"objects/obj_volume/obj_volume.yy",},
@@ -181,5 +183,6 @@
     {"name":"spr_tool","order":4,"path":"sprites/spr_tool/spr_tool.yy",},
     {"name":"spr_volume","order":3,"path":"sprites/spr_volume/spr_volume.yy",},
     {"name":"sprite11","order":1,"path":"sprites/sprite11/sprite11.yy",},
+    {"name":"Sprite45","order":14,"path":"sprites/Sprite45/Sprite45.yy",},
   ],
 }
