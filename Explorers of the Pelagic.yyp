@@ -79,7 +79,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -248,6 +248,7 @@
     {"id":{"name":"spr_icon","path":"sprites/spr_icon/spr_icon.yy",},},
     {"id":{"name":"spr_instructions","path":"sprites/spr_instructions/spr_instructions.yy",},},
     {"id":{"name":"spr_nemo","path":"sprites/spr_nemo/spr_nemo.yy",},},
+    {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},},
     {"id":{"name":"spr_penguin","path":"sprites/spr_penguin/spr_penguin.yy",},},
     {"id":{"name":"spr_pinkjellyfish","path":"sprites/spr_pinkjellyfish/spr_pinkjellyfish.yy",},},
     {"id":{"name":"spr_poke","path":"sprites/spr_poke/spr_poke.yy",},},
