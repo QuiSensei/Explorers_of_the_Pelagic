@@ -81,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -242,6 +242,7 @@
     {"id":{"name":"spr_bluejellyfish","path":"sprites/spr_bluejellyfish/spr_bluejellyfish.yy",},},
     {"id":{"name":"spr_bottle","path":"sprites/spr_bottle/spr_bottle.yy",},},
     {"id":{"name":"spr_bubble","path":"sprites/spr_bubble/spr_bubble.yy",},},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
     {"id":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},},
     {"id":{"name":"spr_claw","path":"sprites/spr_claw/spr_claw.yy",},},
