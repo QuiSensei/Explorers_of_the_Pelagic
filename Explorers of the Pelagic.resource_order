@@ -1,9 +1,8 @@
 {
-
   "FolderOrderSettings":[
     {"name":"Birds","order":2,"path":"folders/Objects/Game/Birds.yy",},
-    {"name":"treasure","order":4,"path":"folders/Objects/Game/treasure.yy",},
     {"name":"Fish","order":3,"path":"folders/Objects/Game/Fish.yy",},
+    {"name":"treasure","order":4,"path":"folders/Objects/Game/treasure.yy",},
     {"name":"Treasures","order":1,"path":"folders/Sprites/Treasures.yy",},
   ],
   "ResourceOrderSettings":[
@@ -18,10 +17,9 @@
     {"name":"spr_golddragon","order":1,"path":"sprites/spr_golddragon/spr_golddragon.yy",},
     {"name":"spr_mossy","order":2,"path":"sprites/spr_mossy/spr_mossy.yy",},
     {"name":"spr_necklace","order":2,"path":"sprites/spr_necklace/spr_necklace.yy",},
+    {"name":"spr_pause","order":1,"path":"sprites/spr_pause/spr_pause.yy",},
     {"name":"Sprite52","order":1,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"TileSet2","order":3,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"TileSet3","order":4,"path":"tilesets/TileSet3/TileSet3.yy",},
-    {"name":"spr_pause","order":1,"path":"sprites/spr_pause/spr_pause.yy",},
-
   ],
 }
