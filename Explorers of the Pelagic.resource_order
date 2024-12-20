@@ -16,6 +16,7 @@
     {"name":"obj_scan","order":2,"path":"objects/obj_scan/obj_scan.yy",},
     {"name":"par_treasure","order":4,"path":"objects/par_treasure/par_treasure.yy",},
     {"name":"findname","order":1,"path":"scripts/findname/findname.yy",},
+    {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_crown","order":3,"path":"sprites/spr_crown/spr_crown.yy",},
     {"name":"spr_gold","order":4,"path":"sprites/spr_gold/spr_gold.yy",},
     {"name":"spr_golddragon","order":1,"path":"sprites/spr_golddragon/spr_golddragon.yy",},
