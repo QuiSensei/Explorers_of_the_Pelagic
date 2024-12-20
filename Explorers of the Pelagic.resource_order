@@ -1,4 +1,5 @@
 {
+
   "FolderOrderSettings":[
     {"name":"Birds","order":2,"path":"folders/Objects/Game/Birds.yy",},
     {"name":"treasure","order":4,"path":"folders/Objects/Game/treasure.yy",},
@@ -20,5 +21,7 @@
     {"name":"Sprite52","order":1,"path":"sprites/Sprite52/Sprite52.yy",},
     {"name":"TileSet2","order":3,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"TileSet3","order":4,"path":"tilesets/TileSet3/TileSet3.yy",},
+    {"name":"spr_pause","order":1,"path":"sprites/spr_pause/spr_pause.yy",},
+
   ],
 }

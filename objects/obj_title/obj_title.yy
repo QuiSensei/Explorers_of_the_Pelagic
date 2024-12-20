@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_title",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_title",
   "overriddenProperties":[],
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fontHolder",
-    "path":"sprites/spr_fontHolder/spr_fontHolder.yy",
+    "name":"spr_titles",
+    "path":"sprites/spr_titles/spr_titles.yy",
   },
   "spriteMaskId":null,
   "visible":true,
