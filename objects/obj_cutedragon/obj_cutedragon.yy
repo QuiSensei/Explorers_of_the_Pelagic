@@ -15,8 +15,8 @@
     "path":"folders/Objects/Game/Birds.yy",
   },
   "parentObjectId":{
-    "name":"par_bird",
-    "path":"objects/par_bird/par_bird.yy",
+    "name":"par_creature",
+    "path":"objects/par_creature/par_creature.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -58,12 +58,12 @@ function init_data() {
                     "scientific_name": "Mythicus abyssalus",
                     "description": "A deep-sea enigma shrouded in mystery. Legends say it is better admired from a distance."
                 },
-				{
-				    "name": "Swordfish",
-				    "sprite": "spr_swordfish",
-				    "scientific_name": "Xiphias swiftus",
-				    "description": "A deep-sea enigma shrouded in mystery. Known for its incredible speed of up to 60 mph, it’s said to outrun even the fastest sea myths. Legends say it’s better admired from a distance, unless you want a quick goodbye!"
-				}
+                {
+                    "name": "Swordfish",
+                    "sprite": "spr_swordfish",
+                    "scientific_name": "Xiphias swiftus",
+                    "description": "Known for its incredible speed of up to 60 mph, it’s said to outrun even the fastest sea myths. Legends say it’s better admired from a distance, unless you want a quick goodbye!"
+                }
             ],
             
             "birds": [
@@ -71,39 +71,63 @@ function init_data() {
                     "name": "Seagull",
                     "sprite": "spr_seagull",
                     "scientific_name": "Larus",
-                    "description": "Essentially a rat with wings. This bird`s primary food source is human garbage."
+                    "description": "Essentially a rat with wings. This birds primary food source is human garbage."
                 },
                 {
                     "name": "Puffin",
                     "sprite": "spr_puffin",
                     "scientific_name": "Fratercula arctica",
-                    "description": "Squat of stature and short of beak, but don`t let looks deceive you. Puffins are known to be highly successful publishers of childrens books."
+                    "description": "Squat of stature and short of beak, but don’t let looks deceive you. Puffins are known to be highly successful publishers of childrens books."
                 },
                 {
                     "name": "Penguin",
                     "sprite": "spr_penguin",
                     "scientific_name": "Spheniscidae",
-                    "description": "While flightless, penguins can achieve extraordinary speeds in the ocean. It`s a bit reckless to swim with your eyes closed, though."
+                    "description": "While flightless, penguins can achieve extraordinary speeds in the ocean. It’s a bit reckless to swim with your eyes closed, though."
                 },
                 {
                     "name": "Duck",
                     "sprite": "spr_duck",
                     "scientific_name": "Anatidae",
-                    "description": "If it`s not made of rubber, it probably won`t be much help with coding."
+                    "description": "If it’s not made of rubber, it probably won’t be much help with coding."
                 },   
-				{
+                {
                     "name": "Cute Dragon",
                     "sprite": "spr_cuteDragon",
                     "scientific_name": "Cutesiedaemon",
-                    "description": "You may think this one is cute but its not."
+                    "description": "You may think this one is cute but it is not."
                 },
                 {
                     "name": "Sun",
                     "sprite": "spr_sun",
                     "scientific_name": "Not a bird",
-                    "description": "Umm... Well, it`s in the sky, so I guess you could count this as a bird. If you were nuts."
+                    "description": "Umm... Well, it’s in the sky, so I guess you could count this as a bird. If you were nuts."
                 }
             ],
+
+            "treasures": [
+                {
+                    "name": "Gold Crown",
+                    "sprite": "spr_goldcrown",
+                    "description": "A gleaming crown fit for royalty, lost to the depths of the ocean."
+                },
+                {
+                    "name": "Gold Bars",
+                    "sprite": "spr_goldbars",
+                    "description": "Solid ingots of pure gold. A pirates dream come true."
+                },
+                {
+                    "name": "Gold Dragon Statue",
+                    "sprite": "spr_golddragon",
+                    "description": "An intricately carved statue of a dragon, said to bring fortune to those who find it."
+                },
+                {
+                    "name": "Gold Necklace",
+                    "sprite": "spr_goldnecklace",
+                    "description": "A delicate necklace adorned with gold and gems, once belonging to a sea queen."
+                }
+            ],
+
             "achievements": [
                 {
                     "name": "Sky High",
@@ -117,7 +141,7 @@ function init_data() {
                     "name": "Gotta Scan Them All",
                     "description": "Examine every species."
                 },
-				                {
+                {
                     "name": "Is it a sword or racecar??",
                     "description": "Spotted and examined a Swordfish."
                 },
@@ -141,9 +165,17 @@ function init_data() {
                     "name": "Royal Encounter",
                     "description": "Spot both the Emperor Tetra and Rosy Tetra in a single dive."
                 },
-			   {
+                {
                     "name": "Did you see it? Did you really see it?",
                     "description": "Spot a (Cute) Dragon."
+                },
+                {
+                    "name": "Oh! Shinning. Oh! lala",
+                    "description": "Ancient treasures from lost city of Atlantis."
+                },
+                {
+                    "name": "What do I do with this?",
+                    "description": "Scan all hidden materials and collect them."
                 },
                 {
                     "name": "Legend Hunter",

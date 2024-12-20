@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bigfish",
-  "eventList":[],
+  "%Name":"obj_golddragon",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bigfish",
+  "name":"obj_golddragon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fish",
-    "path":"folders/Objects/Game/Fish.yy",
+    "name":"treasure",
+    "path":"folders/Objects/Game/treasure.yy",
   },
   "parentObjectId":{
-    "name":"par_fish",
-    "path":"objects/par_fish/par_fish.yy",
+    "name":"par_treasure",
+    "path":"objects/par_treasure/par_treasure.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_golddragon",
+    "path":"sprites/spr_golddragon/spr_golddragon.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
