@@ -34,8 +34,8 @@
     {"$GMFolder":"","%Name":"Effects","folderPath":"folders/Scripts/Effects.yy","name":"Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Scripts/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Achievements","folderPath":"folders/Scripts/Menu/Achievements.yy","name":"Achievements","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Bestiary","folderPath":"folders/Scripts/Menu/Bestiary.yy","name":"Bestiary","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ActivateAchievements","folderPath":"folders/Scripts/Menu/ActivateAchievements.yy","name":"ActivateAchievements","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Bestiary","folderPath":"folders/Scripts/Menu/Bestiary.yy","name":"Bestiary","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notice","folderPath":"folders/Scripts/Menu/Notice.yy","name":"Notice","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Music","folderPath":"folders/Scripts/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Save","folderPath":"folders/Scripts/Save.yy","name":"Save","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -133,7 +133,6 @@
     {"id":{"name":"par_creature","path":"objects/par_creature/par_creature.yy",},},
     {"id":{"name":"par_fish","path":"objects/par_fish/par_fish.yy",},},
     {"id":{"name":"par_menu","path":"objects/par_menu/par_menu.yy",},},
-    {"id":{"name":"sample","path":"objects/sample/sample.yy",},},
     {"id":{"name":"loading_screen","path":"rooms/loading_screen/loading_screen.yy",},},
     {"id":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
@@ -226,9 +225,8 @@
     {"id":{"name":"spr_arm","path":"sprites/spr_arm/spr_arm.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_balloon","path":"sprites/spr_balloon/spr_balloon.yy",},},
-
     {"id":{"name":"spr_bestiary","path":"sprites/spr_bestiary/spr_bestiary.yy",},},
-
+    {"id":{"name":"spr_bigfish","path":"sprites/spr_bigfish/spr_bigfish.yy",},},
     {"id":{"name":"spr_bird","path":"sprites/spr_bird/spr_bird.yy",},},
     {"id":{"name":"spr_bluejellyfish","path":"sprites/spr_bluejellyfish/spr_bluejellyfish.yy",},},
     {"id":{"name":"spr_bottle","path":"sprites/spr_bottle/spr_bottle.yy",},},
