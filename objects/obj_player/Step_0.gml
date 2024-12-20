@@ -32,6 +32,12 @@ if(y > room_height){
 
 #endregion
 
+
+
+
+
+
+
 #region royal encounter check
 var royal_entities = ["Emperor Tetra", "Rosy Tetra"]; // Define entities for the royal encounter
 if (check_entities_catalogued(royal_entities)) {
@@ -48,6 +54,44 @@ if (check_entities_catalogued(flash)) {
 }
 #endregion
 
+
+#region treasure
+var treasure = ["Swordfish"]; 
+if (check_entities_catalogued(treasure)) {
+
+    achievement_earn("Is it a sword or racecar??");
+}
+#endregion
+
+#region treasure
+// List of treasures for scanning
+var treasures = ["Gold Crown", "Gold Bars", "Gold Necklace", "Gold Dragon Statue"];
+
+// Variables to track treasure scanning progress
+var treasure_scanned = false;
+var all_treasures_found = true;
+
+// Check treasures
+for (var i = 0; i < array_length(treasures); i++) {
+    // Find the treasure instance and check if it's scanned
+    var treasure_inst = instance_find_by_name(treasures[i]);
+    if (treasure_inst != noone && treasure_inst.is_scanned) {
+        treasure_scanned = true; // At least one treasure is found
+    } else {
+        all_treasures_found = false; // If any treasure is missing
+    }
+}
+
+// Unlock the achievement for scanning any treasure
+if (treasure_scanned) {
+    achievement_earn("Oh! Shinning. Oh! lala");
+}
+
+// Unlock the achievement for scanning all treasures
+if (all_treasures_found) {
+    achievement_earn("What do I do with this?");
+}
+#endregion
 
 #region dragon
 var Dragon = ["Cute Dragon"]; // Define entities for the royal encounter

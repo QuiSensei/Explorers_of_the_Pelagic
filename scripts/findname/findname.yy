@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script76",
+  "%Name":"findname",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script76",
+  "name":"findname",
   "parent":{
-    "name":"Achievement",
-    "path":"folders/Scripts/Achievement.yy",
+    "name":"Achievements",
+    "path":"folders/Scripts/Menu/Achievements.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
