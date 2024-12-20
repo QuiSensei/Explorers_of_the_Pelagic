@@ -8,8 +8,8 @@
   "instanceCreationOrder":[
     {"name":"inst_2871C2F4_1","path":"rooms/rm_story/rm_story.yy",},
     {"name":"inst_17301454_1","path":"rooms/rm_story/rm_story.yy",},
-    {"name":"inst_34BAFF70","path":"rooms/rm_story/rm_story.yy",},
     {"name":"inst_69AFBA5","path":"rooms/rm_story/rm_story.yy",},
+    {"name":"inst_EEB938B","path":"rooms/rm_story/rm_story.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,12 +18,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_1","path":"objects/obj_button_1/obj_button_1.yy",},"propertyId":{"name":"text","path":"objects/obj_button_1/obj_button_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_1","path":"objects/obj_button_1/obj_button_1.yy",},"propertyId":{"name":"arg","path":"objects/obj_button_1/obj_button_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_game",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_1","path":"objects/obj_button_1/obj_button_1.yy",},"propertyId":{"name":"action","path":"objects/obj_button_1/obj_button_1.yy",},"resource":{"name":"button_action_goto","path":"scripts/button_action_goto/button_action_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"button_action_goto",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":416.0,"y":451.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":416.0,"y":448.0,},
         {"$GMRInstance":"v1","%Name":"inst_17301454_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17301454_1","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"action","path":"objects/obj_button/obj_button.yy",},"resource":{"name":"button_action_goto","path":"scripts/button_action_goto/button_action_goto.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"button_action_goto",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"arg","path":"objects/obj_button/obj_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_game",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":416.0,"y":448.0,},
-        {"$GMRInstance":"v1","%Name":"inst_34BAFF70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34BAFF70","objectId":{"name":"obj_story","path":"objects/obj_story/obj_story.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.218878,"scaleY":1.1927711,"x":32.0,"y":32.0,},
+        {"$GMRInstance":"v1","%Name":"inst_EEB938B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EEB938B","objectId":{"name":"obj_story","path":"objects/obj_story/obj_story.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6779999,"scaleY":1.064,"x":60.50003,"y":-35.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Controllers","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_2871C2F4_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2871C2F4_1","objectId":{"name":"cont_shapes","path":"objects/cont_shapes/cont_shapes.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
