@@ -7,3 +7,4 @@ amplitude = 20;  // How high/low the flying wave goes
 frequency = 0.1; // How fast it bobs up and down
 ystart = y;     // Store initial y position
 timer = 0;      // Timer for the wave motion
+name = "Cute Dragon";
