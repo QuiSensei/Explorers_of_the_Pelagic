@@ -25,6 +25,38 @@ if(y > room_height){
 	vsp *= -1;
 }
 #endregion
+#region shark check
+
+	if(check_near_both_sharks()){
+    achievement_earn("Shark Whisperer");}
+
+#endregion
+
+#region royal encounter check
+var royal_entities = ["Emperor Tetra", "Rosy Tetra"]; // Define entities for the royal encounter
+if (check_entities_catalogued(royal_entities)) {
+
+    achievement_earn("Royal Encounter");
+}
+#endregion
+
+#region sworfish
+var flash = ["Swordfish"]; 
+if (check_entities_catalogued(flash)) {
+
+    achievement_earn("Is it a sword or racecar??");
+}
+#endregion
+
+
+#region dragon
+var Dragon = ["Cute Dragon"]; // Define entities for the royal encounter
+if (check_entities_catalogued(Dragon)) {
+    // Perform actions when the royal encounter is fulfilled
+    achievement_earn("Did you see it? Did you really see it?");
+}
+#endregion
+
 
 #region tool
 var toolchange = keyboard_check_pressed(ord("E")) - keyboard_check_pressed(ord("Q"));

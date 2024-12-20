@@ -2,7 +2,7 @@
   "$GMScript":"v1",
   "%Name":"achievement_earn",
   "isCompatibility":false,
-  "isDnD":false,
+  "isDnD":true,
   "name":"achievement_earn",
   "parent":{
     "name":"Achievements",

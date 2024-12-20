@@ -57,7 +57,13 @@ function init_data() {
                     "sprite": "spr_dagon_icon",
                     "scientific_name": "Mythicus abyssalus",
                     "description": "A deep-sea enigma shrouded in mystery. Legends say it is better admired from a distance."
-                }
+                },
+				{
+				    "name": "Swordfish",
+				    "sprite": "spr_swordfish",
+				    "scientific_name": "Xiphias swiftus",
+				    "description": "A deep-sea enigma shrouded in mystery. Known for its incredible speed of up to 60 mph, it’s said to outrun even the fastest sea myths. Legends say it’s better admired from a distance, unless you want a quick goodbye!"
+				}
             ],
             
             "birds": [
@@ -84,6 +90,12 @@ function init_data() {
                     "sprite": "spr_duck",
                     "scientific_name": "Anatidae",
                     "description": "If it`s not made of rubber, it probably won`t be much help with coding."
+                },   
+				{
+                    "name": "Cute Dragon",
+                    "sprite": "spr_cuteDragon",
+                    "scientific_name": "Cutesiedaemon",
+                    "description": "You may think this one is cute but its not."
                 },
                 {
                     "name": "Sun",
@@ -105,6 +117,10 @@ function init_data() {
                     "name": "Gotta Scan Them All",
                     "description": "Examine every species."
                 },
+				                {
+                    "name": "Is it a sword or racecar??",
+                    "description": "Spotted and examined a Swordfish."
+                },
                 {
                     "name": "Dream No More",
                     "description": "Disturb a sleeping beast."
@@ -119,11 +135,15 @@ function init_data() {
                 },
                 {
                     "name": "Shark Whisperer",
-                    "description": "Swim alongside a Saw Shark and a regular Shark without incident."
+                    "description": "Swim alongside a Saw Shark and a regular Shark."
                 },
                 {
                     "name": "Royal Encounter",
                     "description": "Spot both the Emperor Tetra and Rosy Tetra in a single dive."
+                },
+			   {
+                    "name": "Did you see it? Did you really see it?",
+                    "description": "Spot a (Cute) Dragon."
                 },
                 {
                     "name": "Legend Hunter",

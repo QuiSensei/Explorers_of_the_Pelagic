@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"isSharkClose",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"isSharkClose",
+  "parent":{
+    "name":"ActivateAchievements",
+    "path":"folders/Scripts/Menu/ActivateAchievements.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
