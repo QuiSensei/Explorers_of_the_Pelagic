@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_square",
-    "path":"sprites/spr_square/spr_square.yy",
+    "name":"panel",
+    "path":"sprites/panel/panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

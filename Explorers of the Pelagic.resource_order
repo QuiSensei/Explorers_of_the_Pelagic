@@ -20,9 +20,7 @@
     {"name":"Path1","order":1,"path":"paths/Path1/Path1.yy",},
     {"name":"findname","order":1,"path":"scripts/findname/findname.yy",},
     {"name":"panel","order":1,"path":"sprites/panel/panel.yy",},
-
     {"name":"spr_book","order":3,"path":"sprites/spr_book/spr_book.yy",},
-
     {"name":"spr_button","order":1,"path":"sprites/spr_button/spr_button.yy",},
     {"name":"spr_crown","order":3,"path":"sprites/spr_crown/spr_crown.yy",},
     {"name":"spr_flyingcat","order":2,"path":"sprites/spr_flyingcat/spr_flyingcat.yy",},
@@ -33,6 +31,7 @@
     {"name":"spr_pause","order":1,"path":"sprites/spr_pause/spr_pause.yy",},
     {"name":"spr_yellowbird","order":1,"path":"sprites/spr_yellowbird/spr_yellowbird.yy",},
     {"name":"Sprite52","order":1,"path":"sprites/Sprite52/Sprite52.yy",},
+    {"name":"Sprite65","order":4,"path":"sprites/Sprite65/Sprite65.yy",},
     {"name":"TileSet2","order":3,"path":"tilesets/TileSet2/TileSet2.yy",},
     {"name":"TileSet3","order":4,"path":"tilesets/TileSet3/TileSet3.yy",},
   ],
