@@ -81,11 +81,12 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"cont_bestiary_details","path":"objects/cont_bestiary_details/cont_bestiary_details.yy",},},
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
