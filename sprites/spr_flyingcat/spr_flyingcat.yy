@@ -3,7 +3,7 @@
   "%Name":"spr_flyingcat",
   "bboxMode":0,
   "bbox_bottom":37,
-  "bbox_left":9,
+  "bbox_left":5,
   "bbox_right":55,
   "bbox_top":2,
   "collisionKind":1,

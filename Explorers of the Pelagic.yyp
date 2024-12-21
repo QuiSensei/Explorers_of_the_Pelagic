@@ -81,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -295,6 +295,7 @@
     {"id":{"name":"sprite11","path":"sprites/sprite11/sprite11.yy",},},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
     {"id":{"name":"Sprite52","path":"sprites/Sprite52/Sprite52.yy",},},
+    {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
