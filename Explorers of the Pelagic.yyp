@@ -91,6 +91,7 @@
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
     {"id":{"name":"cont_global","path":"objects/cont_global/cont_global.yy",},},
     {"id":{"name":"cont_menu_backdrop","path":"objects/cont_menu_backdrop/cont_menu_backdrop.yy",},},
+    {"id":{"name":"cont_pause_game","path":"objects/cont_pause_game/cont_pause_game.yy",},},
     {"id":{"name":"cont_settings","path":"objects/cont_settings/cont_settings.yy",},},
     {"id":{"name":"cont_shapes","path":"objects/cont_shapes/cont_shapes.yy",},},
     {"id":{"name":"fade_in_baseclass","path":"objects/fade_in_baseclass/fade_in_baseclass.yy",},},

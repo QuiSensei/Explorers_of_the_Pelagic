@@ -6,6 +6,7 @@
     {"name":"Treasures","order":1,"path":"folders/Sprites/Treasures.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"cont_pause_game","order":1,"path":"objects/cont_pause_game/cont_pause_game.yy",},
     {"name":"obj_claw","order":3,"path":"objects/obj_claw/obj_claw.yy",},
     {"name":"obj_crown","order":1,"path":"objects/obj_crown/obj_crown.yy",},
     {"name":"obj_gold","order":2,"path":"objects/obj_gold/obj_gold.yy",},
