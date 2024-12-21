@@ -6,8 +6,8 @@ switch(room){
 		if(global.bestiary_open){
 			bestiary_toggle();
 		}
-		else{
-			room_goto(rm_menu);
-		}
+		//else{
+			//room_goto(rm_menu);
+		//}
 		break;
 }
