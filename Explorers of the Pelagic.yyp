@@ -81,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -106,7 +106,6 @@
     {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_claw","path":"objects/obj_claw/obj_claw.yy",},},
-    {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
     {"id":{"name":"obj_credit1","path":"objects/obj_credit1/obj_credit1.yy",},},
     {"id":{"name":"obj_cridet2","path":"objects/obj_cridet2/obj_cridet2.yy",},},
     {"id":{"name":"obj_crown","path":"objects/obj_crown/obj_crown.yy",},},
@@ -234,6 +233,7 @@
     {"id":{"name":"snd_bgm_over","path":"sounds/snd_bgm_over/snd_bgm_over.yy",},},
     {"id":{"name":"snd_bgm_under","path":"sounds/snd_bgm_under/snd_bgm_under.yy",},},
     {"id":{"name":"bg_sky","path":"sprites/bg_sky/bg_sky.yy",},},
+    {"id":{"name":"obj_controls","path":"sprites/obj_controls/obj_controls.yy",},},
     {"id":{"name":"panel","path":"sprites/panel/panel.yy",},},
     {"id":{"name":"SmallButton","path":"sprites/SmallButton/SmallButton.yy",},},
     {"id":{"name":"spr_angler","path":"sprites/spr_angler/spr_angler.yy",},},
@@ -250,7 +250,6 @@
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},},
     {"id":{"name":"spr_circle","path":"sprites/spr_circle/spr_circle.yy",},},
     {"id":{"name":"spr_claw","path":"sprites/spr_claw/spr_claw.yy",},},
-    {"id":{"name":"spr_controls","path":"sprites/spr_controls/spr_controls.yy",},},
     {"id":{"name":"spr_credit_1","path":"sprites/spr_credit_1/spr_credit_1.yy",},},
     {"id":{"name":"spr_credit2","path":"sprites/spr_credit2/spr_credit2.yy",},},
     {"id":{"name":"spr_crown","path":"sprites/spr_crown/spr_crown.yy",},},
