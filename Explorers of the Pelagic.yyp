@@ -86,8 +86,8 @@
   "name":"Explorers of the Pelagic",
   "resources":[
     {"id":{"name":"fnt_button","path":"fonts/fnt_button/fnt_button.yy",},},
-    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"cont_bestiary_details","path":"objects/cont_bestiary_details/cont_bestiary_details.yy",},},
     {"id":{"name":"cont_camera","path":"objects/cont_camera/cont_camera.yy",},},
     {"id":{"name":"cont_global","path":"objects/cont_global/cont_global.yy",},},
@@ -123,7 +123,6 @@
     {"id":{"name":"obj_necklace","path":"objects/obj_necklace/obj_necklace.yy",},},
     {"id":{"name":"obj_nemo","path":"objects/obj_nemo/obj_nemo.yy",},},
     {"id":{"name":"obj_notification","path":"objects/obj_notification/obj_notification.yy",},},
-    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_penguin","path":"objects/obj_penguin/obj_penguin.yy",},},
     {"id":{"name":"obj_pinkfish","path":"objects/obj_pinkfish/obj_pinkfish.yy",},},
     {"id":{"name":"obj_pinkjellyfish","path":"objects/obj_pinkjellyfish/obj_pinkjellyfish.yy",},},
