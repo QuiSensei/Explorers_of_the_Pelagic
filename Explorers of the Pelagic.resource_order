@@ -19,6 +19,7 @@
     {"name":"obj_scan","order":2,"path":"objects/obj_scan/obj_scan.yy",},
     {"name":"par_treasure","order":4,"path":"objects/par_treasure/par_treasure.yy",},
     {"name":"Path1","order":1,"path":"paths/Path1/Path1.yy",},
+    {"name":"loading_screen_1","order":6,"path":"rooms/loading_screen_1/loading_screen_1.yy",},
     {"name":"rm_controls","order":5,"path":"rooms/rm_controls/rm_controls.yy",},
     {"name":"rm_game","order":1,"path":"rooms/rm_game/rm_game.yy",},
     {"name":"rm_menu","order":2,"path":"rooms/rm_menu/rm_menu.yy",},
