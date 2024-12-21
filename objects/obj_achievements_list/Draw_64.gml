@@ -84,14 +84,14 @@ for (var i = 0; i < achievement_len; i++) {
         }
 
         // Draw circle indicator
-        draw_set_color(is_unlocked ? c_green : c_gray);
+        draw_set_color(is_unlocked ? c_blue : c_gray);
         draw_circle(15, current_y + ACHIEVEMENT_ITEM_HEIGHT / 2, 8, false);
 
         // Draw achievement text
         var full_text = achievement[? "name"] + " - " + achievement[? "description"];
         var wrapped_text = wrap_text(full_text, ACHIEVEMENT_WIDTH - 50);
 
-        draw_set_color(is_unlocked ? c_green : c_gray);
+        draw_set_color(is_unlocked ? c_blue : c_gray);
         draw_text(30, current_y + ACHIEVEMENT_ITEM_HEIGHT / 2 - 8, wrapped_text);
     }
 }
@@ -129,7 +129,7 @@ draw_roundrect_ext(
     5,
     false
 );
-draw_set_color(c_green);
+draw_set_color(c_blue);
 draw_roundrect_ext(
     ACHIEVEMENT_START_X,
     ACHIEVEMENT_START_Y - 15,
