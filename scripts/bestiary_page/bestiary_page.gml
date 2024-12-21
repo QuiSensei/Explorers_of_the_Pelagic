@@ -65,7 +65,7 @@ function bestiary_page(argument0) {
             inst.text = "???";
             inst.action = bestiary_view;
             inst.arg = [beast_name, argument0];
-            inst.image_blend = 0x555555; // Darker color for uncatalogued
+      
             inst.clickable = false;
         }
     }

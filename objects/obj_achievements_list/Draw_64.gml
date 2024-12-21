@@ -3,12 +3,13 @@ draw_set_font_format(fnt_button, fa_left, fa_top, c_black);
 
 // Constants for UI layout
 #macro ACHIEVEMENT_START_X 80
-#macro ACHIEVEMENT_START_Y 80
+#macro ACHIEVEMENT_START_Y 120
 #macro ACHIEVEMENT_WIDTH 600
-#macro ACHIEVEMENT_HEIGHT 400
+#macro ACHIEVEMENT_HEIGHT 300
 #macro ACHIEVEMENT_ITEM_HEIGHT 40
 #macro CORNER_RADIUS 15
-#macro TOP_PADDING 10 // Padding at the top of the scroll area
+#macro TOP_PADDING 10
+#macro HEADER_Y_OFFSET 40  // Increased offset for larger header
 
 // Create or recreate surface if needed
 if (!surface_exists(achievement_surface)) {
@@ -35,21 +36,9 @@ if (ds_map_exists(global.save, "achievements")) {
     unlocked_achievements = ds_list_size(list);
 }
 
-// Draw main box with rounded corners
-draw_set_color(c_white);
-draw_roundrect_ext(
-    ACHIEVEMENT_START_X, 
-    ACHIEVEMENT_START_Y, 
-    ACHIEVEMENT_START_X + ACHIEVEMENT_WIDTH,
-    ACHIEVEMENT_START_Y + ACHIEVEMENT_HEIGHT,
-    CORNER_RADIUS, 
-    CORNER_RADIUS, 
-    false
-);
-
 // Start drawing to surface
 surface_set_target(achievement_surface);
-draw_clear_alpha(c_white, 0); // Clear surface with transparent background
+draw_clear_alpha(c_white, 0); // Clear with full transparency
 
 // Draw achievements in scrollable area
 for (var i = 0; i < achievement_len; i++) {
@@ -61,18 +50,6 @@ for (var i = 0; i < achievement_len; i++) {
     if (current_y >= TOP_PADDING - ACHIEVEMENT_ITEM_HEIGHT && 
         current_y <= ACHIEVEMENT_HEIGHT) {
         
-        // Draw background for each achievement
-        draw_set_color(c_ltgray);
-        draw_roundrect_ext(
-            5, // Small padding from edges
-            current_y,
-            ACHIEVEMENT_WIDTH - 5,
-            current_y + ACHIEVEMENT_ITEM_HEIGHT - 2,
-            8, // Smaller radius for achievement items
-            8,
-            false
-        );
-
         // Check if achievement is unlocked
         if (ds_map_exists(global.save, "achievements")) {
             for (var j = 0; j < unlocked_achievements; j++) {
@@ -102,33 +79,32 @@ surface_reset_target();
 // Draw the surface
 draw_surface(achievement_surface, ACHIEVEMENT_START_X, ACHIEVEMENT_START_Y);
 
-// Draw sticky header (always on top)
-draw_set_color(c_white);
-draw_rectangle(
-    ACHIEVEMENT_START_X, 
-    ACHIEVEMENT_START_Y - 30,
-    ACHIEVEMENT_START_X + ACHIEVEMENT_WIDTH,
-    ACHIEVEMENT_START_Y,
-    false
-);
-
-// Draw header text
+// Draw header title with larger font
+var original_font = draw_get_font();
+draw_set_font(fnt_button);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 draw_set_color(c_black);
-draw_text(ACHIEVEMENT_START_X, ACHIEVEMENT_START_Y - 30, 
-    "Achievements " + string(unlocked_achievements) + "/" + string(achievement_len));
 
-// Draw progress bar
-var progress_width = ACHIEVEMENT_WIDTH;
-draw_set_color(c_ltgray);
-draw_roundrect_ext(
+// Set to a larger font for the header (make sure this font exists in your game)
+var header_text = "Achievements " + string(unlocked_achievements) + "/" + string(achievement_len);
+var text_scale = 1.5; // Scale up the text size
+
+draw_text_transformed(
     ACHIEVEMENT_START_X, 
-    ACHIEVEMENT_START_Y - 15,
-    ACHIEVEMENT_START_X + progress_width,
-    ACHIEVEMENT_START_Y - 5,
-    5,
-    5,
-    false
+    ACHIEVEMENT_START_Y - HEADER_Y_OFFSET,
+    header_text,
+    text_scale,
+    text_scale,
+    0
 );
+
+// Reset font
+draw_set_font(original_font);
+
+// Draw progress bar with transparency
+var progress_width = ACHIEVEMENT_WIDTH;
+draw_set_alpha(0.8);
 draw_set_color(c_blue);
 draw_roundrect_ext(
     ACHIEVEMENT_START_X,
@@ -139,15 +115,4 @@ draw_roundrect_ext(
     5,
     false
 );
-
-// Draw box outline with rounded corners
-draw_set_color(c_ltgray);
-draw_roundrect_ext(
-    ACHIEVEMENT_START_X,
-    ACHIEVEMENT_START_Y,
-    ACHIEVEMENT_START_X + ACHIEVEMENT_WIDTH,
-    ACHIEVEMENT_START_Y + ACHIEVEMENT_HEIGHT,
-    CORNER_RADIUS,
-    CORNER_RADIUS,
-    true
-);
+draw_set_alpha(1);
