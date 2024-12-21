@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_1",
+  "%Name":"obj_mediumbutton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_1",
+  "name":"obj_mediumbutton",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
@@ -85,8 +85,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"MediumButton",
-    "path":"sprites/MediumButton/MediumButton.yy",
+    "name":"spr_mediumbutton",
+    "path":"sprites/spr_mediumbutton/spr_mediumbutton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
