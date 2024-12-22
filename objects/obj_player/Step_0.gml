@@ -27,8 +27,10 @@ if(y > room_height){
 #endregion
 #region shark check
 
-	if(check_near_both_sharks()){
-    achievement_earn("Shark Whisperer");}
+	if(check_near_both_sharks())
+	{
+    achievement_earn("Shark Whisperer");
+	}
 
 #endregion
 
@@ -55,11 +57,11 @@ if (check_entities_catalogued(flash)) {
 #endregion
 
 
-#region treasure
-var treasure = ["Swordfish"]; 
-if (check_entities_catalogued(treasure)) {
+#region jellyfish
+var jellyfish = ["Bluefire Jellyfish","Pink Jellyfish"]; 
+if (check_entities_catalogued(jellyfish)) {
 
-    achievement_earn("Is it a sword or racecar??");
+    achievement_earn("Jelly Juggler");
 }
 #endregion
 
