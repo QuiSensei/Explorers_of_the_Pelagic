@@ -49,20 +49,35 @@ function state_arm_examine(argument0, argument1) {
             }
             break;
 
-        case SM_EVENT.end_draw:
-            if (instance_exists(examination_target) && !examination_target.is_scanned) {
-                var xpos = examination_target.x, ypos = examination_target.bbox_bottom + 5, txt = "Examining... " + string(examination_progress) + "%";
+case SM_EVENT.end_draw:
+    if (instance_exists(examination_target) && !examination_target.is_scanned) {
+        var xpos = examination_target.x, ypos = examination_target.bbox_bottom + 10;
 
-                var w = string_width(txt), h = string_height(txt), marg = 2;
+        var bar_width = 100;  // Width of the progress bar
+        var bar_height = 10;  // Height of the progress bar
+        var margin = 2;       // Margin around the progress bar
 
-                xpos = clamp(xpos, camera_get_view_x(view_camera[0]) + w, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - w);
-                ypos = clamp(ypos, camera_get_view_y(view_camera[0]) + h, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - h * 2);
+        xpos = clamp(xpos, camera_get_view_x(view_camera[0]) + bar_width / 2, camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) - bar_width / 2);
+        ypos = clamp(ypos, camera_get_view_y(view_camera[0]) + bar_height, camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) - bar_height * 2);
 
-                draw_set_color(c_white);
-                draw_rectangle(xpos - w / 2 - marg, ypos - marg, xpos + w / 2 + marg, ypos + h + marg, false);
-                draw_set_font_format(fnt_button, fa_center, fa_top, c_black);
-                draw_text(xpos, ypos, txt);
-            }
-            break;
+        // Background of the progress bar
+        draw_set_color(c_black);
+        draw_rectangle(xpos - bar_width / 2 - margin, ypos - margin, xpos + bar_width / 2 + margin, ypos + bar_height + margin, false);
+
+        // Progress bar itself
+        var progress_ratio = examination_progress / 100;
+        draw_set_color(c_blue);
+        draw_rectangle(xpos - bar_width / 2, ypos, xpos - bar_width / 2 + bar_width * progress_ratio, ypos + bar_height, false);
+
+        // Border of the progress bar
+        draw_set_color(c_gray);
+        draw_rectangle(xpos - bar_width / 2 - margin, ypos - margin, xpos + bar_width / 2 + margin, ypos + bar_height + margin, true);
+
+        // Optional: Label above the progress bar
+        draw_set_font_format(fnt_button, fa_center, fa_bottom, c_white);
+        draw_text(xpos, ypos +bar_height + 20, "Examining...");
+    }
+    break;
+
     }
 }
