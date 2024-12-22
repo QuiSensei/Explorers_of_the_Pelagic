@@ -81,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Explorers of the Pelagic",
   "resources":[
@@ -309,8 +309,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"loading_screen","path":"rooms/loading_screen/loading_screen.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"loading_screen","path":"rooms/loading_screen/loading_screen.yy",},},
     {"roomId":{"name":"rm_story","path":"rooms/rm_story/rm_story.yy",},},
     {"roomId":{"name":"rm_controls","path":"rooms/rm_controls/rm_controls.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},

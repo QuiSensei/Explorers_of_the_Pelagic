@@ -3,8 +3,8 @@
   "%Name":"spr_poke",
   "bboxMode":0,
   "bbox_bottom":52,
-  "bbox_left":4,
-  "bbox_right":59,
+  "bbox_left":5,
+  "bbox_right":58,
   "bbox_top":13,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"830d557f-b6cc-4473-97f8-d8df8652fce8","name":"830d557f-b6cc-4473-97f8-d8df8652fce8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7e933781-d8aa-4a98-aea8-5254b942cebb","name":"7e933781-d8aa-4a98-aea8-5254b942cebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e9e30f18-8e50-4d94-94b0-ae1ad91f25c2","blendMode":0,"displayName":"default","isLocked":false,"name":"e9e30f18-8e50-4d94-94b0-ae1ad91f25c2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9147d07a-e340-4804-9e9b-3162f466daf5","blendMode":0,"displayName":"default","isLocked":false,"name":"9147d07a-e340-4804-9e9b-3162f466daf5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_poke",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"830d557f-b6cc-4473-97f8-d8df8652fce8","path":"sprites/spr_poke/spr_poke.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d6375abd-47de-4e3e-b39a-fd5c6ec2768d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e933781-d8aa-4a98-aea8-5254b942cebb","path":"sprites/spr_poke/spr_poke.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"27d58b0c-b37a-4a57-b7d7-d8ad6a85b93a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
