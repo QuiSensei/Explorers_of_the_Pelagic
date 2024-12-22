@@ -1,5 +1,5 @@
 
-draw_sprite(spr_icon, 0, 64, 64);
+draw_sprite(spr_beastiaryplaceholder, 0, 64, 64);
 if (sprite_exists(sprite_index)) {
     draw_sprite(
         sprite_index,
