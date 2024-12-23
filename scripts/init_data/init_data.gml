@@ -102,6 +102,18 @@ function init_data() {
                     "sprite": "spr_sun",
                     "scientific_name": "Not a bird",
                     "description": "Umm... Well, it’s in the sky, so I guess you could count this as a bird. If you were nuts."
+                },
+                {
+                    "name": "Wonder Cat",
+                    "sprite": "spr_flyingcat",
+                    "scientific_name": "Ailuropoda mirabilis",
+                    "description": "An enigmatic feline with avian flair. This hybrid creature is as delightful as it is mysterious."
+                },
+                {
+                    "name": "Yellow Warbler",
+                    "sprite": "spr_yellowbird",
+                    "scientific_name": "Setophaga petechia",
+                    "description": "A small, bright songbird with a tune that can warm even the coldest hearts."
                 }
             ],
 
